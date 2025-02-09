@@ -1,0 +1,24 @@
+# AI/ML Intern Task: Synthetic Image Generation, Preprocessing & Flux Model
+
+Short Description of My Approach for Each Part of the Task
+1. Synthetic Image Generation
+I utilized Stable Diffusion from the diffusers library to generate images based on a text prompt.
+I chose a creative prompt: "A serene sunset over a futuristic city."
+I generated three images and saved them with descriptive filenames.
+If GPU constraints were encountered, pre-generated images could serve as a substitute.
+
+2. Image Preprocessing
+I loaded the generated images using PIL (Pillow) and processed them with Torchvision.
+I resized the images to 224×224 pixels to ensure consistency.
+I converted the images into normalized tensors (with values scaled between 0 and 1).
+Optionally, I converted the images to grayscale for simplified input.
+I saved and displayed the preprocessed images for verification.
+
+3. Minimal Flux Model: Forward Pass Demonstration
+
+Note: I did not execute this part due to my limited knowledge of Julia.
+
+7. Documentation & Submission
+I organized all scripts (image_generation.py, preprocessing.py, flux_forward_pass.jl).
+I created a structured README.md explaining the setup, execution, and challenges I faced.
+I stored the generated and preprocessed images in an image/ folder.
